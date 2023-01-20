@@ -5,7 +5,15 @@ interface CanvasRecorderOptions {
   download?: boolean;
   filename?: string;
   frameRate?: number;
+  showInstructions?: boolean;
 }
+
+const instructions = `Press "r" to start recording, "r" again to stop recording.
+
+Currently the webm export will not play directly in all media players.
+
+I use \`ffmpeg -i "sand.webm" -vf scale=1024:576:flags=neighbor -r 60 sand-output.webm\` to convert before sharing.
+`;
 
 export class CanvasRecorder {
   #recorder: MediaRecorder | null = null;
@@ -22,6 +30,10 @@ export class CanvasRecorder {
   })!;
 
   constructor(options: CanvasRecorderOptions) {
+    if (options.showInstructions ?? true) {
+      console.info(instructions);
+    }
+
     this.#width = options.width ?? 256;
     this.#height = options.height ?? 144;
 
