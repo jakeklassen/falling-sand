@@ -53,3 +53,15 @@ canvas {
 .hidden {
   display: none;
 }
+
+a {
+  color: #cacaca;
+}
+
+a:hover {
+  color: #fff;
+}
+
+a:active {
+  color: #fff;
+}
