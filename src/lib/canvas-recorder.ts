@@ -14,27 +14,16 @@ export class CanvasRecorder {
   #streams: MediaStream[] = [];
   #stream: MediaStream | null = null;
   #chunks: Blob[] = [];
-  #width = 256;
-  #height = 144;
+  #width: number;
+  #height: number;
   #buffer = document.createElement('canvas');
   #context = this.#buffer.getContext('2d', {
     alpha: false,
   })!;
-  #link = document.createElement('a');
-  #video = document.createElement('video');
 
   constructor(options: CanvasRecorderOptions) {
     this.#width = options.width ?? 256;
     this.#height = options.height ?? 144;
-
-    this.#video.autoplay = true;
-    this.#video.controls = true;
-    this.#video.width = this.#width;
-    this.#video.height = this.#height;
-    this.#video.style.position = 'absolute';
-    this.#video.style.top = '0';
-    this.#video.style.left = '0';
-    document.body.appendChild(this.#video);
 
     this.#buffer.width = this.#width;
     this.#buffer.height = this.#height;
@@ -49,10 +38,6 @@ export class CanvasRecorder {
       audioBitsPerSecond: 128000, // 128 Kbit/sec
       videoBitsPerSecond: 2500000, // 2.5 Mbit/sec
     };
-
-    if (options.download) {
-      this.#link.download = options.filename ?? 'recording.webm';
-    }
 
     this.#canvases = options.canvases;
     for (const canvas of options.canvases) {
@@ -74,14 +59,17 @@ export class CanvasRecorder {
     };
 
     this.#recorder.onstop = () => {
+      const link = document.createElement('a');
+
       if (options.download && this.#chunks.length > 0) {
         const blob = new Blob(this.#chunks, { type: 'video/webm' });
         const url = URL.createObjectURL(blob);
 
-        this.#link.href = url;
+        link.download = options.filename ?? 'recording.webm';
+        link.href = url;
 
         const event = new MouseEvent('click');
-        this.#link.dispatchEvent(event);
+        link.dispatchEvent(event);
 
         setTimeout(() => {
           URL.revokeObjectURL(url);
