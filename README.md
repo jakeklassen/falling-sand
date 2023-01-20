@@ -2,6 +2,10 @@
 
 [Demo](https://sandfall.netlify.app/)
 
+## Status
+
+This is very WIP. I am following through some content before porting to my [ECS](https://github.com/jakeklassen/ecs).
+
 ## Recordings
 
 Press `r` to start recording, `r` again to stop recording. The recording will be saved as `sand.webm`. MediaRecorder is used to record the canvas.
