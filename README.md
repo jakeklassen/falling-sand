@@ -14,3 +14,7 @@ For example I like to scale it up:
 # Change -r to the framerate you want
 ffmpeg -i "sand.webm" -vf scale=1024:576:flags=neighbor -r 120 sand-output.webm
 ```
+
+## Performance
+
+Currently, the simulation executes as fast as possible with no regard for the framerate. This means that the simulation will run to match your monitor refresh rate.
