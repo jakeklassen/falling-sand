@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Falling Sand</title>
+    <script src="/js/feather.min.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="status">
+        <span data-feather="video" class="hidden" id="recording-on"></span>
+        <span data-feather="video-off" id="recording-off"></span>
+      </div>
+
+      <div id="wrapper">
+        <canvas id="canvas"></canvas>
+        <canvas id="ui-canvas"></canvas>
+      </div>
+    </div>
+
+    <script>
+      feather.replace();
+    </script>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
