@@ -17,4 +17,8 @@ ffmpeg -i "sand.webm" -vf scale=1024:576:flags=neighbor -r 120 sand-output.webm
 
 ## Performance
 
-Currently, the simulation executes as fast as possible with no regard for the framerate. This means that the simulation will run to match your monitor refresh rate.
+Currently, the simulation is locked to 60 FPS.
+
+## Kudos
+
+**Heavily** inspired by Jason McGhee's [Falling Sand series](https://jason.today/falling-sand).

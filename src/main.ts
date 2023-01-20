@@ -36,7 +36,7 @@ const canvasRecorder = new CanvasRecorder({
   width: GAME_WIDTH,
   height: GAME_HEIGHT,
   filename: 'sand.webm',
-  frameRate: 120,
+  frameRate: 60,
   download: true,
 });
 
@@ -134,15 +134,14 @@ loader.add(visitorFontUrl).load(async (loader, resources) => {
   let deltaTimeAccumulator = 0;
 
   function frame(hrt: DOMHighResTimeStamp) {
-    // deltaTimeAccumulator += Math.min(1000, hrt - last);
+    deltaTimeAccumulator += Math.min(1000, hrt - last);
 
-    // while (deltaTimeAccumulator >= STEP) {
+    while (deltaTimeAccumulator >= STEP) {
+      grid.update();
+      mouse.update();
 
-    //   deltaTimeAccumulator -= STEP;
-    // }
-
-    mouse.update();
-    grid.update();
+      deltaTimeAccumulator -= STEP;
+    }
 
     grid.render(ctx);
 
