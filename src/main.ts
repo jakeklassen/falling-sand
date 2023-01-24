@@ -80,6 +80,10 @@ uiCanvas.addEventListener('touchstart', (e) => e.preventDefault());
 uiCanvas.addEventListener('touchend', (e) => e.preventDefault());
 uiCanvas.addEventListener('touchmove', (e) => e.preventDefault());
 
+uiCanvas.addEventListener('mouseleave', () => {
+  mouse.down = false;
+});
+
 uiCanvas.addEventListener('mousemove', (e: MouseEvent) => {
   const rect = uiCanvas.getBoundingClientRect();
   mouse.position.x = (e.clientX - rect.left) * (uiCanvas.width / rect.width);

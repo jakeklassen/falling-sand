@@ -4,7 +4,7 @@ specifiers:
   '@ffmpeg/core': ^0.11.0
   '@ffmpeg/ffmpeg': ^0.11.6
   '@types/color': ^3.0.3
-  '@types/css-font-loading-module': ^0.0.7
+  '@types/css-font-loading-module': ^0.0.8
   color: ^4.2.3
   just-random-integer: ^4.2.0
   resource-loader: 4.0.0-rc4
@@ -20,7 +20,7 @@ dependencies:
 
 devDependencies:
   '@types/color': 3.0.3
-  '@types/css-font-loading-module': 0.0.7
+  '@types/css-font-loading-module': 0.0.8
   typescript: 4.9.4
   vite: 4.0.4
 
@@ -256,8 +256,8 @@ packages:
       '@types/color-convert': 2.0.0
     dev: true
 
-  /@types/css-font-loading-module/0.0.7:
-    resolution: {integrity: sha512-nl09VhutdjINdWyXxHWN/w9zlNCfr60JUqJbd24YXUuCwgeL0TpFSdElCwb6cxfB6ybE19Gjj4g0jsgkXxKv1Q==}
+  /@types/css-font-loading-module/0.0.8:
+    resolution: {integrity: sha512-PdJeLlCJj/ShOA+c0dXdZ/e1P0Cdjhip+dRBtPaigOqwKd0DiFx3NeO6T2E7AQ5JszSR3dub3YkQjc2hcQyxSw==}
     dev: true
 
   /color-convert/2.0.1:
