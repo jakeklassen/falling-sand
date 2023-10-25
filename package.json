@@ -9,14 +9,14 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@types/color": "^3.0.4",
-    "@types/css-font-loading-module": "^0.0.9",
+    "@types/color": "^3.0.5",
+    "@types/css-font-loading-module": "^0.0.10",
     "typescript": "^5.2.2",
-    "vite": "^4.4.9"
+    "vite": "^4.5.0"
   },
   "dependencies": {
-    "@ffmpeg/core": "^0.12.3",
-    "@ffmpeg/ffmpeg": "^0.12.6",
+    "@ffmpeg/core": "^0.12.4",
+    "@ffmpeg/ffmpeg": "^0.12.7",
     "color": "^4.2.3",
     "just-random-integer": "^4.2.0",
     "resource-loader": "4.0.0-rc4"
