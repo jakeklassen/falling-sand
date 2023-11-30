@@ -9,10 +9,10 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@types/color": "^3.0.5",
-    "@types/css-font-loading-module": "^0.0.10",
-    "typescript": "^5.2.2",
-    "vite": "^4.5.0"
+    "@types/color": "^3.0.6",
+    "@types/css-font-loading-module": "^0.0.12",
+    "typescript": "^5.3.2",
+    "vite": "^5.0.4"
   },
   "dependencies": {
     "@ffmpeg/core": "^0.12.4",
