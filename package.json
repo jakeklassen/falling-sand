@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "@types/color": "^3.0.6",
-    "@types/css-font-loading-module": "^0.0.12",
+    "@types/css-font-loading-module": "^0.0.13",
     "typescript": "^5.3.2",
     "vite": "^5.0.4"
   },
