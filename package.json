@@ -11,12 +11,12 @@
   "devDependencies": {
     "@types/color": "^3.0.6",
     "@types/css-font-loading-module": "^0.0.13",
-    "typescript": "^5.3.2",
-    "vite": "^5.0.4"
+    "typescript": "^5.3.3",
+    "vite": "^5.0.12"
   },
   "dependencies": {
-    "@ffmpeg/core": "^0.12.4",
-    "@ffmpeg/ffmpeg": "^0.12.7",
+    "@ffmpeg/core": "^0.12.6",
+    "@ffmpeg/ffmpeg": "^0.12.10",
     "color": "^4.2.3",
     "just-random-integer": "^4.2.0",
     "resource-loader": "4.0.0-rc4"
