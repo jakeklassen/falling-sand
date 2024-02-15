@@ -12,7 +12,7 @@
     "@types/color": "^3.0.6",
     "@types/css-font-loading-module": "^0.0.13",
     "typescript": "^5.3.3",
-    "vite": "^5.1.1"
+    "vite": "^5.1.2"
   },
   "dependencies": {
     "@ffmpeg/core": "^0.12.6",
