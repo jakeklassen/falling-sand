@@ -32,7 +32,7 @@ importers:
         version: 0.0.13
       typescript:
         specifier: ^5.4.2
-        version: 5.5.3
+        version: 5.5.4
       vite:
         specifier: ^5.1.6
         version: 5.3.3
@@ -348,8 +348,8 @@ packages:
   type-signals@1.1.0:
     resolution: {integrity: sha512-JzmQSmRNTIcQofZdYW9RHxAP8rrcq/N5I2fBy+V43oOqikOvsCTYlOIIX40Qpmr5GiRmYrptghIog84E1yz1Zg==}
 
-  typescript@5.5.3:
-    resolution: {integrity: sha512-/hreyEujaB0w76zKo6717l3L0o/qEUtRgdvUBvlkhoWeOVMjMuHNHk0BRBzikzuGDqNmPQbg5ifMEqsHLiIUcQ==}
+  typescript@5.5.4:
+    resolution: {integrity: sha512-Mtq29sKDAEYP7aljRgtPOpTvOfbwRWlS6dPRzwjdE+C0R4brX/GUyhHSecbHMFLNBLcJIPt9nl9yG5TZ1weH+Q==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -618,7 +618,7 @@ snapshots:
 
   type-signals@1.1.0: {}
 
-  typescript@5.5.3: {}
+  typescript@5.5.4: {}
 
   vite@5.3.3:
     dependencies:
