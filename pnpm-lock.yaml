@@ -28,8 +28,8 @@ importers:
         specifier: ^3.0.6
         version: 3.0.6
       '@types/css-font-loading-module':
-        specifier: ^0.0.13
-        version: 0.0.13
+        specifier: ^0.0.14
+        version: 0.0.14
       typescript:
         specifier: ^5.4.2
         version: 5.5.3
@@ -278,8 +278,8 @@ packages:
   '@types/color@3.0.6':
     resolution: {integrity: sha512-NMiNcZFRUAiUUCCf7zkAelY8eV3aKqfbzyFQlXpPIEeoNDbsEHGpb854V3gzTsGKYj830I5zPuOwU/TP5/cW6A==}
 
-  '@types/css-font-loading-module@0.0.13':
-    resolution: {integrity: sha512-EnmFmshMT9rD3yohKkrbMMrRULUVkZbUAJFrFFO12mxiFWQvRKDQYsK1CB8tSUYZQ+uUui5RBvENNHqhL9xqgQ==}
+  '@types/css-font-loading-module@0.0.14':
+    resolution: {integrity: sha512-+EwJ/RW2vPqbYn0JXRHy593huPCtgmLF/kg57iLK9KUn6neTqGGOTZ0CbssP8Uou/gqT/5XmWKQ8A7ve7xNV6A==}
 
   '@types/estree@1.0.5':
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
@@ -518,7 +518,7 @@ snapshots:
     dependencies:
       '@types/color-convert': 2.0.3
 
-  '@types/css-font-loading-module@0.0.13': {}
+  '@types/css-font-loading-module@0.0.14': {}
 
   '@types/estree@1.0.5': {}
 
