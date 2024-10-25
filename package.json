@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@types/color": "^3.0.6",
+    "@types/color": "^4.0.0",
     "@types/css-font-loading-module": "^0.0.14",
     "typescript": "^5.4.2",
     "vite": "^5.1.6"
