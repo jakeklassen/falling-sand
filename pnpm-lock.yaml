@@ -13,7 +13,7 @@ importers:
         version: 0.12.6
       '@ffmpeg/ffmpeg':
         specifier: ^0.12.10
-        version: 0.12.10
+        version: 0.12.12
       color:
         specifier: ^4.2.3
         version: 4.2.3
@@ -187,8 +187,8 @@ packages:
     resolution: {integrity: sha512-PrjWBTfGn2WVn9T7wGnzfFwChbqWeZc7tM9vvJZVRadYFUDakfzy7W0LpYC0cvvK0xT82qlBsk38lQhJ/Hps5A==}
     engines: {node: '>=16.x'}
 
-  '@ffmpeg/ffmpeg@0.12.10':
-    resolution: {integrity: sha512-lVtk8PW8e+NUzGZhPTWj2P1J4/NyuCrbDD3O9IGpSeLYtUZKBqZO8CNj1WYGghep/MXoM8e1qVY1GztTkf8YYQ==}
+  '@ffmpeg/ffmpeg@0.12.12':
+    resolution: {integrity: sha512-ONA7v3XA9hZg4NhfaaHgPJL173PLEDNAG+yGIsUrhF/LvRS09YVg/pORW4rQVYVDCfuSd150mk5ZIOvpDwNi9A==}
     engines: {node: '>=18.x'}
 
   '@ffmpeg/types@0.12.2':
@@ -490,7 +490,7 @@ snapshots:
 
   '@ffmpeg/core@0.12.6': {}
 
-  '@ffmpeg/ffmpeg@0.12.10':
+  '@ffmpeg/ffmpeg@0.12.12':
     dependencies:
       '@ffmpeg/types': 0.12.2
 
