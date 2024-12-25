@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@ffmpeg/core':
         specifier: ^0.12.6
-        version: 0.12.6
+        version: 0.12.8
       '@ffmpeg/ffmpeg':
         specifier: ^0.12.10
         version: 0.12.12
@@ -183,8 +183,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@ffmpeg/core@0.12.6':
-    resolution: {integrity: sha512-PrjWBTfGn2WVn9T7wGnzfFwChbqWeZc7tM9vvJZVRadYFUDakfzy7W0LpYC0cvvK0xT82qlBsk38lQhJ/Hps5A==}
+  '@ffmpeg/core@0.12.8':
+    resolution: {integrity: sha512-GbEy5PKWPYJDv59vm9ehW0Pxf3IoX/a1Ja8+16/wIHt3dj5I6lgYqQNJAnMB/4FeAiIC121jTGegwYDBTLpe0g==}
     engines: {node: '>=16.x'}
 
   '@ffmpeg/ffmpeg@0.12.12':
@@ -488,7 +488,7 @@ snapshots:
   '@esbuild/win32-x64@0.24.0':
     optional: true
 
-  '@ffmpeg/core@0.12.6': {}
+  '@ffmpeg/core@0.12.8': {}
 
   '@ffmpeg/ffmpeg@0.12.12':
     dependencies:
