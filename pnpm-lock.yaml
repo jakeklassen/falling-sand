@@ -13,7 +13,7 @@ importers:
         version: 0.12.8
       '@ffmpeg/ffmpeg':
         specifier: ^0.12.10
-        version: 0.12.13
+        version: 0.12.14
       color:
         specifier: ^4.2.3
         version: 4.2.3
@@ -193,12 +193,12 @@ packages:
     resolution: {integrity: sha512-GbEy5PKWPYJDv59vm9ehW0Pxf3IoX/a1Ja8+16/wIHt3dj5I6lgYqQNJAnMB/4FeAiIC121jTGegwYDBTLpe0g==}
     engines: {node: '>=16.x'}
 
-  '@ffmpeg/ffmpeg@0.12.13':
-    resolution: {integrity: sha512-DX5xvpxkV0QaHIJRMRiz8zfh4mJO01rPKrpXgIzHWSB0A58YMUvbBJxHs4cSJPcX1Lar7HK6RAi28ObsUe7V8A==}
+  '@ffmpeg/ffmpeg@0.12.14':
+    resolution: {integrity: sha512-KHyQoYWMvkdZy2zr1P0YHnX9E+79eugSvEeZbVRDVhGxxkras5jaSEiDeHLvcKsYkkIKlg9hxk5u4rBtsAyQdw==}
     engines: {node: '>=18.x'}
 
-  '@ffmpeg/types@0.12.3':
-    resolution: {integrity: sha512-WK01NqTfFfdXxxVD2+OQnd6LQp4ahWq2kjIh/eVoTo43Lo9ICI5nLOItg/1rcIvOuM7J1ANWTBazWGBKk1kACA==}
+  '@ffmpeg/types@0.12.4':
+    resolution: {integrity: sha512-k9vJQNBGTxE5AhYDtOYR5rO5fKsspbg51gbcwtbkw2lCdoIILzklulcjJfIDwrtn7XhDeF2M+THwJ2FGrLeV6A==}
     engines: {node: '>=16.x'}
 
   '@rollup/rollup-android-arm-eabi@4.29.1':
@@ -499,11 +499,11 @@ snapshots:
 
   '@ffmpeg/core@0.12.8': {}
 
-  '@ffmpeg/ffmpeg@0.12.13':
+  '@ffmpeg/ffmpeg@0.12.14':
     dependencies:
-      '@ffmpeg/types': 0.12.3
+      '@ffmpeg/types': 0.12.4
 
-  '@ffmpeg/types@0.12.3': {}
+  '@ffmpeg/types@0.12.4': {}
 
   '@rollup/rollup-android-arm-eabi@4.29.1':
     optional: true
