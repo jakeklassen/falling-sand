@@ -17,7 +17,7 @@
   "dependencies": {
     "@ffmpeg/core": "^0.12.6",
     "@ffmpeg/ffmpeg": "^0.12.10",
-    "color": "^4.2.3",
+    "color": "^5.0.0",
     "just-random-integer": "^4.2.0",
     "resource-loader": "4.0.0-rc4"
   },
