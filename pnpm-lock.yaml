@@ -26,7 +26,7 @@ importers:
     devDependencies:
       '@types/color':
         specifier: ^4.2.0
-        version: 4.2.0
+        version: 4.2.1
       '@types/css-font-loading-module':
         specifier: ^0.0.14
         version: 0.0.14
@@ -333,8 +333,8 @@ packages:
   '@types/color-name@1.1.5':
     resolution: {integrity: sha512-j2K5UJqGTxeesj6oQuGpMgifpT5k9HprgQd8D1Y0lOFqKHl3PJu5GMeS4Y5EgjS55AE6OQxf8mPED9uaGbf4Cg==}
 
-  '@types/color@4.2.0':
-    resolution: {integrity: sha512-6+xrIRImMtGAL2X3qYkd02Mgs+gFGs+WsK0b7VVMaO4mYRISwyTjcqNrO0mNSmYEoq++rSLDB2F5HDNmqfOe+A==}
+  '@types/color@4.2.1':
+    resolution: {integrity: sha512-ResWeDLy1vozIMbD6JLRKuNBbIcIlBkjTIxVHHd5Cqtm77T+ahH3BWE/PWv1OhFd1HAwcn8no4ig2uTaRXpYQQ==}
 
   '@types/css-font-loading-module@0.0.14':
     resolution: {integrity: sha512-+EwJ/RW2vPqbYn0JXRHy593huPCtgmLF/kg57iLK9KUn6neTqGGOTZ0CbssP8Uou/gqT/5XmWKQ8A7ve7xNV6A==}
@@ -720,7 +720,7 @@ snapshots:
 
   '@types/color-name@1.1.5': {}
 
-  '@types/color@4.2.0':
+  '@types/color@4.2.1':
     dependencies:
       '@types/color-convert': 2.0.4
 
